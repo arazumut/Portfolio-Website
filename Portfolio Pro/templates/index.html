@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<link rel="shortcut icon" href="{{ url_for('static', filename='pictures/ChatGPT Image 14 Haz 2025 20_45_17.png') }}" type="image/x-icon">
+<body class="body_1">
+    <div class="container">
+        <div class="circle" style="--i:1;"></div>
+        <div class="circle" style="--i:2;"></div>
+        <div class="circle" style="--i:3;"></div>
+        <div class="circle" style="--i:4;"></div>
+        <div class="circle" style="--i:5;"></div>
+        <div class="circle" style="--i:6;"></div>
+        <div class="circle" style="--i:7;"></div>  
+        <div class="circle" style="--i:8;"></div>
+        <div class="circle" style="--i:9;"></div>
+        <div class="circle" style="--i:10;"></div>
+        <div class="circle" style="--i:11;"></div>
+        <div class="circle" style="--i:12;"></div>
+        <div class="circle" style="--i:13;"></div>
+        <div class="circle" style="--i:14;"></div>
+        <div class="circle" style="--i:15;"></div>
+        <div class="circle" style="--i:16;"></div>
+        <div class="circle" style="--i:17;"></div>  
+        <div class="circle" style="--i:18;"></div>
+        <div class="circle" style="--i:19;"></div>
+        <div class="circle" style="--i:20;"></div>
+    </div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmet Çınar Dönmez - Yazılım Öğrencisi Portfolyosu">
+    <meta name="theme-color" content="#121212">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Tarayıcı önbelleğini kontrol etme -->
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Ahmet Çınar Dönmez</title>
+    
+    <!-- Performans İyileştirmeleri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">
+    <link rel="preload" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" as="script">
+    
+    <!-- Font yükleme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap">
+
+    <div class="navigation" id="draggable-navbar">
+        <ul>
+            <li class="list active">
+                <a href="#about" id="nav-about">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <span class="text">Hakkımda</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#projects" id="nav-projects">
+                    <span class="icon">
+                        <ion-icon name="albums-outline"></ion-icon>
+                    </span>
+                    <span class="text">Projeler</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#experiences" id="nav-experiences">
+                    <span class="icon">
+                        <ion-icon name="extension-puzzle-outline"></ion-icon>
+                    </span>
+                    <span class="text">Deneyimler</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#" id="nav-game">
+                    <span class="icon">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                    </span>
+                    <span class="text">Oyun</span>
+                </a>
+            </li>
+
+            <div class="indicator"></div>
+        </ul>
+        <div id="navbar-drag-handle" style="width:100%;height:18px;cursor:move;position:absolute;top:0;left:0;z-index:1100;"></div>
+    </div>
+
+    <script>
+        const lists = document.querySelectorAll('.list');
+        function activeLink() {
+            lists.forEach((item) => 
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        lists.forEach((item) =>
+        item.addEventListener('click', activeLink));
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="{{ url_for('static', filename='pictures/Screenshot 2025-06-01 135942.png') }}" alt="avatar" width="80" loading="eager">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Ahmet Çınar Dönmez">Ahmet Çınar Dönmez</h1>
+                    <p class="title">Junior Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>İletişim</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">E-posta</p>
+
+                            <a href="mailto:ahmetcinardonmez2013@gmail.com" class="contact-link">ahmetcinardonmez2013@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Doğum Tarihi</p>
+
+                            <time datetime="2013-11-27">27 Kasım 2013</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Konum</p>
+
+                            <address>Ankara-Türkiye</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.discord.com/Arduinolog/" class="social-link"><ion-icon name="logo-discord"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/ahmetcinar06" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+            </div>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </aside>
+
+        <div class="main-content">
+            
+            <article class="about active" data-page="about me" id="about">
+                <header>
+                    <h2 class="h2 article-title">Hakkımda</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Yazılım geliştirme dünyasına ilgim 9 yaşındayken başladı. Yazılım çok esnek yapıya sahip bir alan, istediğiniz zaman farklı yazılım dillerine geçiş yapabiliyoruz. Bu esneklik yazılıma başlamamı sağladı. Ben özellikle Python programlama diline ilgi duyuyorum ama Python'dan sonra C#, Java, Swift gibi dillerle de ilgilenmeyi planlıyorum. Kodlamayı öğrenmek benim için keyifli bir yolculuk ve elimden geldiğince problem çözme, algoritmalar ve web geliştirme konularında kendimi geliştirmeye çalışıyorum. Yazılımın sunduğu imkanlar beni gerçekten heyecanlandırıyor. Python’un esnek yapısıyla küçük projeler yaparak pratik kazanmaya çalışıyorum. Yeni şeyler öğrenmeyi seviyorum ve zamanla daha iyi bir geliştirici olmayı hedefliyorum. Kendi projelerimi geliştirmek ve bu süreçte sürekli kendimi ilerletmek için çabalıyorum.</p>
+                </section>
+                <section class="service">
+                    <h3 class="h3 service-title">Ne Yapıyorum?</h3>
+
+
+                    
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="{{ url_for('static', filename='pictures/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg') }}" alt="icon" width="40" loading="lazy">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Sitesi Tasarımı</h4>
+                                <p class="service-item-text">Modern, canlı ve göze hoş gelen web sitesi tasarımları oluşturmaya çalışıyorum. (Ama temel düzeyde, çok karmaşık değil.)</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="{{ url_for('static', filename='pictures/markus-spiske-1LLh8k2_YFk-unsplash.jpg') }}" alt="icon" width="40" loading="lazy">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Sitesi Geliştirme</h4>
+                                <p class="service-item-text">Projelerde genellikle kendi tasarımlarımı farklılaştırarak ekliyorum. Bu yüzden siteler tamamen bana ait değil.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="{{ url_for('static', filename='pictures/7076118.jpg') }}" alt="icon" width="40" loading="lazy">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Oyun Geliştirme</h4>
+                                <p class="service-item-text">Pgzero ve Pygame kullanarak 2D ve 3D oyunlar yapmaya başladım.</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">Yetenekler</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Geliştirme (Backend, Frontend)</h5>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Oyun Geliştirme (2D, 3D)</h5>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="projects" data-page="projects" id="projects">
+                <header>
+                    <h2 class="h2 article-title">Projelerim</h2>
+                </header>
+
+                <section class="projects-list">
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/DOOMimg.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">DOOM Wolfenstein v1.0</h3>
+                            <p class="project-description">Raycasting ve Pygame kullanılarak yapılmış basit bir birinci şahıs 3D oyun.
+
+Dokulu duvarlar, sprite'lar ve çarpışma ile oyuncu hareketi içerir.
+
+Modüler yapı: main.py, map.py, player.py, vb.
+
+Çalıştırmak için: pip install pygame ve python main.py.
+
+Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Pygame</span>
+                                <span class="tech-tag">Raycasting</span>
+                                <span class="tech-tag">Trigonometri</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/3D-Python-Game-BETA-" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Screenshot 2025-05-25 170752.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Günlük</h3>
+                            <p class="project-description">Bu proje ilk günlük web sitem ve aynı zamanda veritabanı kullanan ilk projem. Günlük girişi oluşturup veritabanına kaydedebilirsiniz.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">SQLAlchemy</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/Diary" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Screenshot 2025-06-01 122516.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Eco-card Web Sitesi V1.0</h3>
+                            <p class="project-description">Bu web sitesi, çevre dostu kartlara yardımcı olmak için tasarlanmıştır. Kullanıcı dostu bir arayüze sahip olup Flask ile oluşturulmuştur. Ve bu, Flask kullandığım ilk projemdir.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Jinja</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/Eco_card-website" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Screenshot 2025-06-01 123112.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Eco-card Web Sitesi V2.0</h3>
+                            <p class="project-description">Bu proje, Eco-card web sitesinin geliştirilmiş bir versiyonudur. Kullanıcıların hesap oluşturmasına olanak tanıyan bir kayıt özelliği eklenmiştir.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Jinja2</span>
+                                <span class="tech-tag">Bootstrap 5</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/Eco-card-Website-V2.0" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Screenshot 2025-06-01 125800.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Hava Durumu Tahmin Sitesi</h3>
+                            <p class="project-description">Bu proje, yaptığım ilk web sitesidir. Ankara-Türkiye için hava durumu tahminleri sunar.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Sadece HTML</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/My-first-website" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Screenshot 2025-06-01 182638.png') }}" alt="Project Image" width="100%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Minecraft</h3>
+                            <p class="project-description">Proje bana ait değil. Minecraft benzeri bir oyunun nasıl yapıldığını anlamak için indirdim. Oyun geliştirme kavramlarını öğreniyorum.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Pygame</span>
+                                <span class="tech-tag">Moderngl</span>
+                                <span class="tech-tag">Numpy</span>
+                            </div>
+                            <a href="https://github.com/ahmetcinar06/Minecraft" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+                </section>
+                <header>
+                    <h2 class="h2 article-title">Gelecek Projelerim</h2>
+                </header>
+                <section class="future-project-list">
+                    <div class="future-project-item">
+                        <div class="project-card content-card">
+                            <div class="project-image">
+                                <img src="{{ url_for('static', filename='pictures/Fuel-Management-System.png') }}" alt="Project Image" width="80%" loading="lazy">
+                            </div>
+                            <h3 class="h3 project-title">Yakıt Yönetim Sistemi</h3>
+                            <p class="project-description">Günümüzde iklim krizi gerçekten ciddi bir sorun. Bunun en büyük nedeni verimsiz yakıt tüketimi. Bu proje, verimli yakıt yönetimi için bir çözüm sunmayı amaçlamaktadır.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flask veya Django</span>
+                                <span class="tech-tag">Bootstrap5</span>
+                                <span class="tech-tag">Sqllite3</span>
+                            </div>
+                            <a href="https://searchengineland.com/wp-content/seloads/2020/03/google-404-error-screensnap.jpg" class="project-link">Projeyi Görüntüle →</a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="experience" data-page="experiences" id="experiences">
+                <header>
+                    <h2 class="h2 article-title">Deneyimler</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content content-card">
+                            <h3 class="h3 timeline-title">Roblox Oyun Geliştirme</h3>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <span class="timeline-place">Kodland, İtalya - Uzaktan</span>
+                            <p class="timeline-description">
+                                Roblox oyunları geliştirme konusunda deneyim kazandım. Oyun tasarımı, programlama ve kullanıcı deneyimi konularında çalıştım. Ayrıca takım çalışması gerektiren projeler sayesinde iletişim becerilerimi geliştirdim ve bu alanda deneyim kazandım.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content content-card">
+                            <h3 class="h3 timeline-title">Python Basic</h3>
+                            <span class="timeline-date">2023 - 2024</span>
+                            <span class="timeline-place">Kodland</span>
+                            <p class="timeline-description">
+                                Python programlama dilinin temellerini öğrendim. Değişkenler, döngüler, koşullu ifadeler ve fonksiyonlar gibi temel kavramları anladım. Ayrıca pgzero ile oyun geliştirme deneyimi kazandım. Bu kurs, Python ile programlamaya giriş yapmamı sağladı.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content content-card">
+                            <h3 class="h3 timeline-title">Python Pro</h3>
+                            <span class="timeline-date">2024 - 2025</span>
+                            <span class="timeline-place">Kodland</span>
+                            <p class="timeline-description">
+                                Python programlama dilinde ileri düzey konuları öğrendim. Web geliştirme, veritabanı yönetimi ve oyun programlama gibi konulara odaklandım. Flask ile web uygulamaları geliştirdim ve Pygame ile oyun projeleri üzerinde çalıştım. (Bu kurstan sonra Python LVL3 kursuna geçeceğim. Bu kurs şu anki en kapsamlı Python kursudur.)
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="education">
+                    <h3 class="h3 section-title">Eğitim</h3>
+                    
+                    <ul class="education-list">
+                        <li class="education-item content-card">
+                            <div class="education-icon-box">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="education-content">
+                                <h4 class="h4 education-title">Bilgisayar Programcılığı</h4>
+                                <span class="education-date">2022 - 2025</span>
+                                <span class="education-school">Kodland, Merkezi Londra, İngiltere, Birleşik Krallık</span>
+                                <p class="education-description">
+                                    1 yıl boyunca Roblox oyun geliştirme eğitimi aldım, ve son 2 yıldır Kodland adlı bir platformda Python eğitimi alıyorum. İlk olarak Python Temel kursu ile başladım, şimdi ise Python Pro kursundayım ve bu web sitesi ise mezuniyet projemdir.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="education-item content-card">
+                            <div class="education-icon-box">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="education-content">
+                                <h4 class="h4 education-title">Matematik Olimpiyatları Eğitimi</h4>
+                                <span class="education-date">2024 - Bugün</span>
+                                <span class="education-school">Final Okulları, Türkiye</span>
+                                <p class="education-description">
+                                    1 yıldır okulum olan Final Okulları'nda Matematik Olimpiyatları eğitimi alıyorum. Bu eğitim bize problem çözme becerileri, eleştirel düşünme ve ileri matematiksel kavramlar kazandırıyor. İlk başta gerçekten zordu ama şimdi ben ve sınıfım TYT sorularını çözebiliyoruz. Bu eğitim, oyunlarımı geliştirirken bana avantaj sağlıyor. Çünkü bazen oyunlarda matematiksel hesaplamalar yapmam gerekiyor. Bu nedenle bu eğitim benim için çok faydalı oluyor. (Hatta son geliştirdiğim DOOM Wolfenstein v1.0 oyununda matematiksel hesaplamalar yaptım.)</p>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Oyun yükleme ekranı -->
+    <div id="game-loading-overlay" style="display:none;position:fixed;z-index:2000;top:0;left:0;width:100vw;height:100vh;background:rgba(18,18,18,0.95);color:#fff;align-items:center;justify-content:center;font-size:2rem;font-family:'Poppins',sans-serif;">
+        <div>Oyun Yükleniyor...</div>
+        <div class="container">
+            <div class="circle" style="--i:1;"></div>
+            <div class="circle" style="--i:2;"></div>
+            <div class="circle" style="--i:3;"></div>
+            <div class="circle" style="--i:4;"></div>
+            <div class="circle" style="--i:5;"></div>
+            <div class="circle" style="--i:6;"></div>
+            <div class="circle" style="--i:7;"></div>  
+            <div class="circle" style="--i:8;"></div>
+            <div class="circle" style="--i:9;"></div>
+            <div class="circle" style="--i:10;"></div>
+            <div class="circle" style="--i:11;"></div>
+            <div class="circle" style="--i:12;"></div>
+            <div class="circle" style="--i:13;"></div>
+            <div class="circle" style="--i:14;"></div>
+            <div class="circle" style="--i:15;"></div>
+            <div class="circle" style="--i:16;"></div>
+            <div class="circle" style="--i:17;"></div>  
+            <div class="circle" style="--i:18;"></div>
+            <div class="circle" style="--i:19;"></div>
+            <div class="circle" style="--i:20;"></div>
+        </div>
+    </div>
+
+    <script>
+    // Just a tiny bit of JavaScript to add classnames to the HTML-element on toggle
+    var html = document.getElementsByTagName('html');
+    var radios = document.getElementsByName('themes'); 
+
+    for (i = 0; i < radios.length; i++) {
+        radios[i].addEventListener('change', function() {
+        html[0].classList.remove(html[0].classList.item(0));
+        html[0].classList.add(this.id);
+        });
+    }
+    </script>
+
+    <script>
+        // Önbelleğe alma fonksiyonu - sayfa performansını artırır
+        function prefetchResources() {
+            const resources = [
+                'IMG_6762.jpg',
+                'fotis-fotopoulos-DuHKoV44prg-unsplash.jpg',
+                'markus-spiske-1LLh8k2_YFk-unsplash.jpg',
+                'programming-background-with-person-working-with-codes-computer.jpg',
+                'caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg',
+                '7076118.jpg',
+                'caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg',
+            ];
+            
+            if ('caches' in window) {
+                caches.open('portfolio-assets').then(cache => {
+                    resources.forEach(url => {
+                        cache.add(url).catch(() => {
+                            console.log('Önbelleğe alma hatası:', url);
+                        });
+                    });
+                });
+            }
+        }
+        
+        // Sayfa içeriğinin önden yüklenmesi için
+        document.addEventListener("DOMContentLoaded", function() {
+            // Önemli görselleri önden yükle
+            const importantImages = [
+                'IMG_6762.jpg',
+                'fotis-fotopoulos-DuHKoV44prg-unsplash.jpg',
+                'markus-spiske-1LLh8k2_YFk-unsplash.jpg',
+                'programming-background-with-person-working-with-codes-computer.jpg',
+                'caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg',
+                '7076118.jpg',
+                'caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg',
+            ];
+            
+            // Görüntüleri önbelleğe alarak yükleme performansını artırır
+            importantImages.forEach(src => {
+                const img = new Image();
+                img.src = src;
+            });
+            
+            // İleri düzey önbelleğe alma
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(() => {
+                    prefetchResources();
+                });
+            } else {
+                setTimeout(prefetchResources, 1000);
+            }
+        });
+        
+        // Sayfa Yükleme Animasyonu - daha hızlı yükleme süresi
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.querySelector('.container').classList.add('loaded');
+                
+                // Hakkımda sayfası aktif ise, skill çubuklarını animasyonla göster
+                if (document.querySelector('.about.active')) {
+                    animateSkillBars();
+                }
+                
+                // Sayfanın tamamen yüklenmesinden sonra kullanılmayan kaynakları temizle
+                if ('requestIdleCallback' in window) {
+                    requestIdleCallback(() => {
+                        // Belleği temizle
+                        if (window.gc) window.gc();
+                    });
+                }
+            }, 600); // Yükleme süresini 1000ms'den 600ms'ye düşürdük
+        });
+
+//Opening or closing side bar
+const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+const sidebar = document.querySelector("[data-sidebar]");
+const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+sidebarBtn.addEventListener("click", function() {elementToggleFunc(sidebar); })
+
+// Enabling Page Navigation 
+const navigationLinks = document.querySelectorAll('[data-nav-link]');
+const pages = document.querySelectorAll('[data-page]');
+
+for(let i = 0; i < navigationLinks.length; i++) {
+    navigationLinks[i].addEventListener('click', function() {
+        // Menü öğesinin içeriğini küçük harfe çevir, Türkçe karakterleri koruyarak
+        const clickedPage = this.innerHTML.toLowerCase();
+        
+        for(let j = 0; j < pages.length; j++) {
+            // Data-page özniteliğini al
+            const pageDataAttr = pages[j].dataset.page;
+            
+            // Menü öğesine ait sayfayı bul
+            if(clickedPage === pageDataAttr) {
+                pages[j].classList.add('active');
+                navigationLinks[i].classList.add('active');
+                window.scrollTo(0, 0);
+                
+                // Hakkımda sayfasına geçildiğinde animasyonları başlat
+                if (pageDataAttr === 'hakkımda') {
+                    setTimeout(function() {
+                        animateSkillBars();
+                    }, 200); // 300'den 200'e düşürdük
+                }
+                
+                // Deneyimler sayfasına geçildiğinde zaman çizelgesi animasyonunu başlat
+                if (pageDataAttr === 'deneyimler') {
+                    setTimeout(function() {
+                        animateTimeline();
+                    }, 200); // 300'den 200'e düşürdük
+                }
+            } else {
+                pages[j].classList.remove('active');
+                navigationLinks[j].classList.remove('active');
+            }
+        }
+    });
+}
+
+// Yetenek çubuklarını animasyonla göster
+function animateSkillBars() {
+    const skillBars = document.querySelectorAll('.skills-progress-fill');
+    
+    skillBars.forEach((bar, index) => {
+        // Önce genişliği sıfırla
+        bar.style.width = '0';
+        
+        // Sonra doğru genişliğe animasyonla getir
+        setTimeout(() => {
+            const width = bar.style.width || bar.getAttribute('style')?.match(/width:\s*(\d+)%/)?.[1] + '%' || '0%';
+            bar.style.width = width;
+        }, 100 + (index * 200)); // Animasyon süresini 300'den 200'e düşürdük
+    });
+}
+
+// Zaman çizelgesi animasyonu
+function animateTimeline() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const educationItems = document.querySelectorAll('.education-item');
+    
+    // Timeline öğelerini sırayla görünür yap
+    timelineItems.forEach((item, index) => {
+        setTimeout(() => {
+            item.querySelector('.timeline-content').style.opacity = '1';
+        }, 150 * index); // 200'den 150'ye düşürdük
+    });
+    
+    // Eğitim öğelerini sırayla görünür yap
+    educationItems.forEach((item, index) => {
+        setTimeout(() => {
+            item.style.opacity = '1';
+        }, 200 * index); // 300'den 200'e düşürdük
+    });
+}
+
+// Navbar drag & drop hareketi
+(function() {
+    const navbar = document.getElementById('draggable-navbar');
+    const dragHandle = document.getElementById('navbar-drag-handle');
+    let isDragging = false;
+    let offsetX = 0, offsetY = 0;
+
+    dragHandle.addEventListener('mousedown', function(e) {
+        isDragging = true;
+        // Navbar'ın mevcut pozisyonunu al
+        const rect = navbar.getBoundingClientRect();
+        offsetX = e.clientX - rect.left;
+        offsetY = e.clientY - rect.top;
+        document.body.style.userSelect = 'none';
+    });
+    document.addEventListener('mousemove', function(e) {
+        if (!isDragging) return;
+        let newLeft = e.clientX - offsetX;
+        let newTop = e.clientY - offsetY;
+        // Ekran dışına çıkmasın diye sınırlandır
+        newLeft = Math.max(0, Math.min(window.innerWidth - navbar.offsetWidth, newLeft));
+        newTop = Math.max(0, Math.min(window.innerHeight - navbar.offsetHeight, newTop));
+        navbar.style.left = newLeft + 'px';
+        navbar.style.top = newTop + 'px';
+    });
+    document.addEventListener('mouseup', function() {
+        isDragging = false;
+        document.body.style.userSelect = '';
+    });
+})();
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+    <script>
+        // Smooth scroll for navbar links
+        document.querySelectorAll('.navigation a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href').substring(1);
+                if (targetId) {
+                    const target = document.getElementById(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+
+        // Navbar Oyun linkine tıklanınca 5 sn yükleme ekranı göster, sonra yönlendir
+        document.getElementById('nav-game').addEventListener('click', function(e) {
+            e.preventDefault();
+            const overlay = document.getElementById('game-loading-overlay');
+            overlay.style.display = 'flex';
+            setTimeout(function() {
+                window.location.href = "{{ url_for('game') }}";
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
