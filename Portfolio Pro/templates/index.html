@@ -1,8 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmet Çınar Dönmez - Yazılım Öğrencisi Portfolyosu">
+    <meta name="theme-color" content="#121212">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Tarayıcı önbelleğini kontrol etme -->
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='pictures/ChatGPT Image 14 Haz 2025 20_45_17.png') }}" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <!-- Performans İyileştirmeleri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">
+    <link rel="preload" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" as="script">
+    
+    <!-- Font yükleme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap">
+    
+    <title>Ahmet Çınar Dönmez</title>
 </head>
-<link rel="shortcut icon" href="{{ url_for('static', filename='pictures/ChatGPT Image 14 Haz 2025 20_45_17.png') }}" type="image/x-icon">
 <body class="body_1">
+    <!-- Yükleme Animasyonu -->
     <div class="container">
         <div class="circle" style="--i:1;"></div>
         <div class="circle" style="--i:2;"></div>
@@ -26,25 +52,7 @@
         <div class="circle" style="--i:20;"></div>
     </div>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ahmet Çınar Dönmez - Yazılım Öğrencisi Portfolyosu">
-    <meta name="theme-color" content="#121212">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!-- Tarayıcı önbelleğini kontrol etme -->
-    <meta http-equiv="Cache-Control" content="max-age=31536000">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <title>Ahmet Çınar Dönmez</title>
-    
-    <!-- Performans İyileştirmeleri -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">
-    <link rel="preload" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" as="script">
-    
-    <!-- Font yükleme -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap">
+    <!-- Navigation -->
 
     <div class="navigation" id="draggable-navbar">
         <ul>
@@ -89,19 +97,6 @@
         <div id="navbar-drag-handle" style="width:100%;height:18px;cursor:move;position:absolute;top:0;left:0;z-index:1100;"></div>
     </div>
 
-    <script>
-        const lists = document.querySelectorAll('.list');
-        function activeLink() {
-            lists.forEach((item) => 
-            item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        lists.forEach((item) =>
-        item.addEventListener('click', activeLink));
-    </script>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <main>
         <aside class="sidebar " data-sidebar>
             <div class="sidebar-info">
@@ -168,8 +163,6 @@
                     <li class="social-item"><a href="https://github.com/ahmetcinar06" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
                 </ul>
             </div>
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         </aside>
 
         <div class="main-content">
@@ -399,7 +392,6 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
                         </div>
                     </div>
 
-                    
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content content-card">
@@ -411,7 +403,6 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
                             </p>
                         </div>
                     </div>
-                </section>
 
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
@@ -453,7 +444,7 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
                                 <span class="education-date">2024 - Bugün</span>
                                 <span class="education-school">Final Okulları, Türkiye</span>
                                 <p class="education-description">
-                                    1 yıldır okulum olan Final Okulları'nda Matematik Olimpiyatları eğitimi alıyorum. Bu eğitim bize problem çözme becerileri, eleştirel düşünme ve ileri matematiksel kavramlar kazandırıyor. İlk başta gerçekten zordu ama şimdi ben ve sınıfım TYT sorularını çözebiliyoruz. Bu eğitim, oyunlarımı geliştirirken bana avantaj sağlıyor. Çünkü bazen oyunlarda matematiksel hesaplamalar yapmam gerekiyor. Bu nedenle bu eğitim benim için çok faydalı oluyor. (Hatta son geliştirdiğim DOOM Wolfenstein v1.0 oyununda matematiksel hesaplamalar yaptım.)</p>
+                                    1 yıldır okulum olan Final Okulları'nda Matematik Olimpiyatları eğitimi alıyorum. Bu eğitim bize problem çözme becerileri, eleştirel düşünme ve ileri matematiksel kavramlar kazandırıyor. İlk başta gerçekten zordu ama şimdi ben ve sınıfım TYT sorularını çözebiliyoruz. Bu eğitim, oyunlarımı geliştirirken bana avantaj sağlıyor. Çünkü bazen oyunlarda matematiksel hesaplamalar yapmam gerekiyor. Bu nedenle bu eğitim benim için çok faydalı oluyor. (Hatta son geliştirdiğim DOOM Wolfenstein v1.0 oyununda matematiksel hesaplamalar yaptım.)
                                 </p>
                             </div>
                         </li>
@@ -490,21 +481,38 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
         </div>
     </div>
 
-    <script>
-    // Just a tiny bit of JavaScript to add classnames to the HTML-element on toggle
-    var html = document.getElementsByTagName('html');
-    var radios = document.getElementsByName('themes'); 
+    <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
-    for (i = 0; i < radios.length; i++) {
-        radios[i].addEventListener('change', function() {
-        html[0].classList.remove(html[0].classList.item(0));
-        html[0].classList.add(this.id);
-        });
-    }
     </script>
 
+    <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
     <script>
-        // Önbelleğe alma fonksiyonu - sayfa performansını artırır
+        // Navigation Link Active State
+        const lists = document.querySelectorAll('.list');
+        function activeLink() {
+            lists.forEach((item) => 
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        lists.forEach((item) =>
+        item.addEventListener('click', activeLink));
+
+        // Theme Toggle
+        var html = document.getElementsByTagName('html');
+        var radios = document.getElementsByName('themes'); 
+
+        for (i = 0; i < radios.length; i++) {
+            radios[i].addEventListener('change', function() {
+            html[0].classList.remove(html[0].classList.item(0));
+            html[0].classList.add(this.id);
+            });
+        }
+
+        // Resource Prefetching
         function prefetchResources() {
             const resources = [
                 'IMG_6762.jpg',
@@ -527,9 +535,8 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
             }
         }
         
-        // Sayfa içeriğinin önden yüklenmesi için
+        // Page Loading Performance
         document.addEventListener("DOMContentLoaded", function() {
-            // Önemli görselleri önden yükle
             const importantImages = [
                 'IMG_6762.jpg',
                 'fotis-fotopoulos-DuHKoV44prg-unsplash.jpg',
@@ -540,13 +547,11 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
                 'caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg',
             ];
             
-            // Görüntüleri önbelleğe alarak yükleme performansını artırır
             importantImages.forEach(src => {
                 const img = new Image();
                 img.src = src;
             });
             
-            // İleri düzey önbelleğe alma
             if ('requestIdleCallback' in window) {
                 requestIdleCallback(() => {
                     prefetchResources();
@@ -556,147 +561,130 @@ Gelecek: düşmanlar, silahlar ve daha büyük haritalar. 🚀🎮</p>
             }
         });
         
-        // Sayfa Yükleme Animasyonu - daha hızlı yükleme süresi
+        // Page Load Animation
         window.addEventListener('load', function() {
             setTimeout(function() {
                 document.querySelector('.container').classList.add('loaded');
                 
-                // Hakkımda sayfası aktif ise, skill çubuklarını animasyonla göster
                 if (document.querySelector('.about.active')) {
                     animateSkillBars();
                 }
                 
-                // Sayfanın tamamen yüklenmesinden sonra kullanılmayan kaynakları temizle
                 if ('requestIdleCallback' in window) {
                     requestIdleCallback(() => {
-                        // Belleği temizle
                         if (window.gc) window.gc();
                     });
                 }
-            }, 600); // Yükleme süresini 1000ms'den 600ms'ye düşürdük
+            }, 600);
         });
 
-//Opening or closing side bar
-const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+        // Sidebar Toggle
+        const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
-const sidebar = document.querySelector("[data-sidebar]");
-const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+        const sidebar = document.querySelector("[data-sidebar]");
+        const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-sidebarBtn.addEventListener("click", function() {elementToggleFunc(sidebar); })
+        sidebarBtn.addEventListener("click", function() {elementToggleFunc(sidebar); })
 
-// Enabling Page Navigation 
-const navigationLinks = document.querySelectorAll('[data-nav-link]');
-const pages = document.querySelectorAll('[data-page]');
+        // Page Navigation 
+        const navigationLinks = document.querySelectorAll('[data-nav-link]');
+        const pages = document.querySelectorAll('[data-page]');
 
-for(let i = 0; i < navigationLinks.length; i++) {
-    navigationLinks[i].addEventListener('click', function() {
-        // Menü öğesinin içeriğini küçük harfe çevir, Türkçe karakterleri koruyarak
-        const clickedPage = this.innerHTML.toLowerCase();
-        
-        for(let j = 0; j < pages.length; j++) {
-            // Data-page özniteliğini al
-            const pageDataAttr = pages[j].dataset.page;
-            
-            // Menü öğesine ait sayfayı bul
-            if(clickedPage === pageDataAttr) {
-                pages[j].classList.add('active');
-                navigationLinks[i].classList.add('active');
-                window.scrollTo(0, 0);
+        for(let i = 0; i < navigationLinks.length; i++) {
+            navigationLinks[i].addEventListener('click', function() {
+                const clickedPage = this.innerHTML.toLowerCase();
                 
-                // Hakkımda sayfasına geçildiğinde animasyonları başlat
-                if (pageDataAttr === 'hakkımda') {
-                    setTimeout(function() {
-                        animateSkillBars();
-                    }, 200); // 300'den 200'e düşürdük
+                for(let j = 0; j < pages.length; j++) {
+                    const pageDataAttr = pages[j].dataset.page;
+                    
+                    if(clickedPage === pageDataAttr) {
+                        pages[j].classList.add('active');
+                        navigationLinks[i].classList.add('active');
+                        window.scrollTo(0, 0);
+                        
+                        if (pageDataAttr === 'hakkımda') {
+                            setTimeout(function() {
+                                animateSkillBars();
+                            }, 200);
+                        }
+                        
+                        if (pageDataAttr === 'deneyimler') {
+                            setTimeout(function() {
+                                animateTimeline();
+                            }, 200);
+                        }
+                    } else {
+                        pages[j].classList.remove('active');
+                        navigationLinks[j].classList.remove('active');
+                    }
                 }
-                
-                // Deneyimler sayfasına geçildiğinde zaman çizelgesi animasyonunu başlat
-                if (pageDataAttr === 'deneyimler') {
-                    setTimeout(function() {
-                        animateTimeline();
-                    }, 200); // 300'den 200'e düşürdük
-                }
-            } else {
-                pages[j].classList.remove('active');
-                navigationLinks[j].classList.remove('active');
-            }
+            });
         }
-    });
-}
 
-// Yetenek çubuklarını animasyonla göster
-function animateSkillBars() {
-    const skillBars = document.querySelectorAll('.skills-progress-fill');
-    
-    skillBars.forEach((bar, index) => {
-        // Önce genişliği sıfırla
-        bar.style.width = '0';
-        
-        // Sonra doğru genişliğe animasyonla getir
-        setTimeout(() => {
-            const width = bar.style.width || bar.getAttribute('style')?.match(/width:\s*(\d+)%/)?.[1] + '%' || '0%';
-            bar.style.width = width;
-        }, 100 + (index * 200)); // Animasyon süresini 300'den 200'e düşürdük
-    });
-}
+        // Skill Bars Animation
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skills-progress-fill');
+            
+            skillBars.forEach((bar, index) => {
+                bar.style.width = '0';
+                
+                setTimeout(() => {
+                    const width = bar.style.width || bar.getAttribute('style')?.match(/width:\s*(\d+)%/)?.[1] + '%' || '0%';
+                    bar.style.width = width;
+                }, 100 + (index * 200));
+            });
+        }
 
-// Zaman çizelgesi animasyonu
-function animateTimeline() {
-    const timelineItems = document.querySelectorAll('.timeline-item');
-    const educationItems = document.querySelectorAll('.education-item');
-    
-    // Timeline öğelerini sırayla görünür yap
-    timelineItems.forEach((item, index) => {
-        setTimeout(() => {
-            item.querySelector('.timeline-content').style.opacity = '1';
-        }, 150 * index); // 200'den 150'ye düşürdük
-    });
-    
-    // Eğitim öğelerini sırayla görünür yap
-    educationItems.forEach((item, index) => {
-        setTimeout(() => {
-            item.style.opacity = '1';
-        }, 200 * index); // 300'den 200'e düşürdük
-    });
-}
+        // Timeline Animation
+        function animateTimeline() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            const educationItems = document.querySelectorAll('.education-item');
+            
+            timelineItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.querySelector('.timeline-content').style.opacity = '1';
+                }, 150 * index);
+            });
+            
+            educationItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                }, 200 * index);
+            });
+        }
 
-// Navbar drag & drop hareketi
-(function() {
-    const navbar = document.getElementById('draggable-navbar');
-    const dragHandle = document.getElementById('navbar-drag-handle');
-    let isDragging = false;
-    let offsetX = 0, offsetY = 0;
+        // Navbar Drag & Drop
+        (function() {
+            const navbar = document.getElementById('draggable-navbar');
+            const dragHandle = document.getElementById('navbar-drag-handle');
+            let isDragging = false;
+            let offsetX = 0, offsetY = 0;
 
-    dragHandle.addEventListener('mousedown', function(e) {
-        isDragging = true;
-        // Navbar'ın mevcut pozisyonunu al
-        const rect = navbar.getBoundingClientRect();
-        offsetX = e.clientX - rect.left;
-        offsetY = e.clientY - rect.top;
-        document.body.style.userSelect = 'none';
-    });
-    document.addEventListener('mousemove', function(e) {
-        if (!isDragging) return;
-        let newLeft = e.clientX - offsetX;
-        let newTop = e.clientY - offsetY;
-        // Ekran dışına çıkmasın diye sınırlandır
-        newLeft = Math.max(0, Math.min(window.innerWidth - navbar.offsetWidth, newLeft));
-        newTop = Math.max(0, Math.min(window.innerHeight - navbar.offsetHeight, newTop));
-        navbar.style.left = newLeft + 'px';
-        navbar.style.top = newTop + 'px';
-    });
-    document.addEventListener('mouseup', function() {
-        isDragging = false;
-        document.body.style.userSelect = '';
-    });
-})();
+            dragHandle.addEventListener('mousedown', function(e) {
+                isDragging = true;
+                const rect = navbar.getBoundingClientRect();
+                offsetX = e.clientX - rect.left;
+                offsetY = e.clientY - rect.top;
+                document.body.style.userSelect = 'none';
+            });
+            
+            document.addEventListener('mousemove', function(e) {
+                if (!isDragging) return;
+                let newLeft = e.clientX - offsetX;
+                let newTop = e.clientY - offsetY;
+                newLeft = Math.max(0, Math.min(window.innerWidth - navbar.offsetWidth, newLeft));
+                newTop = Math.max(0, Math.min(window.innerHeight - navbar.offsetHeight, newTop));
+                navbar.style.left = newLeft + 'px';
+                navbar.style.top = newTop + 'px';
+            });
+            
+            document.addEventListener('mouseup', function() {
+                isDragging = false;
+                document.body.style.userSelect = '';
+            });
+        })();
 
-    </script>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
-    <script>
-        // Smooth scroll for navbar links
+        // Smooth Scroll for Navbar Links
         document.querySelectorAll('.navigation a[href^="#"]').forEach(link => {
             link.addEventListener('click', function(e) {
                 const targetId = this.getAttribute('href').substring(1);
@@ -710,7 +698,7 @@ function animateTimeline() {
             });
         });
 
-        // Navbar Oyun linkine tıklanınca 5 sn yükleme ekranı göster, sonra yönlendir
+        // Game Loading Screen
         document.getElementById('nav-game').addEventListener('click', function(e) {
             e.preventDefault();
             const overlay = document.getElementById('game-loading-overlay');
